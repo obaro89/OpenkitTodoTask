@@ -1,0 +1,70 @@
+.todo {
+  background-color: #fdfdfd;
+  width: 500px;
+  border: 1px solid #dadbddaf;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .iconbtn {
+      align-self: flex-end;
+      margin-left: auto;
+    }
+  }
+
+  .grouped {
+    display: flex;
+    align-items: center;
+
+    .icon {
+      margin-right: 10px;
+      color: #aa54db;
+      cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    width: 90%;
+  }
+}
+
+.popoverBox {
+  .edit {
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    padding: 8px 5px 8px 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #eddff6;
+    }
+
+    .icon {
+      margin-right: 5px;
+    }
+  }
+
+  .delete {
+    color: gray;
+    display: flex;
+    align-items: center;
+    padding: 8px 5px 8px 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #eddff6;
+    }
+
+    .icon {
+      margin-right: 5px;
+    }
+  }
+}

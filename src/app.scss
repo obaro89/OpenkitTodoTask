@@ -1,0 +1,35 @@
+$bg: #f1f2f4;
+$primary: #aa54db;
+$primaryshade: #d9c3f1;
+$primarytint: #eddff6;
+$white: #fdfdfd;
+
+.App {
+  background-color: $bg;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media screen and (max-width: 720px) {
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+.loading {
+  background-color: $bg;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media screen and (max-width: 720px) {
+    justify-content: center;
+    align-items: center;
+  }
+}
